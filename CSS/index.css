@@ -1,0 +1,51 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+.container{
+height: 100%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+/* here is the header and the nav and the logo with the titel */
+header{
+background-color: #0F0F0F;
+width: 100%;
+height: 120px;
+}
+/* here wil be the main of the page */
+main{
+background-color: #1E1E1E;
+width: 100%;
+flex-grow:1 ;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.midlepart{
+    background-color: #393939;
+    height: 85%;
+    width: 85%;
+    border: #0F0F0F;
+    border-style: solid;
+    border-width: 3px; 
+}
+
+footer{
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 83px;
+}
+.litllebar{
+    background-color: black;
+    border-radius: 100px;
+    width: 98%;
+    height: 3px;
+    
+    margin: 15px;
+}
