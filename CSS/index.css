@@ -14,15 +14,15 @@ align-items: center;
 header{
 background-color: #0F0F0F;
 width: 100%;
-height: 140px;
+height: 100px;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
 .logo-sushi{
-width: 190px;
-height: 120px;
+
+height: 80px;
 
 margin-left: 10px;
 }
@@ -37,14 +37,15 @@ background-color: lime;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 140px;
-    height: 120px;
-    margin-right: 20px;
+   width: 60px;
+    height: 60px;
+    margin-right: 50px;
     }
 
 .dropdownmenu-logo{
-height: 90px;
-width: 90px;
+height: 55px;
+
+
 }
 ul {
     background: #272424;
@@ -114,18 +115,32 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+
 .middle-part-text{
   display: flex;
-  background-color: #269b24;
+  background-color: #1E1E1E;
   height: 90%;
-  width: 50%;
+  width: 55%;
  align-self: center;
+ margin-left: 20px;
+}
+.fotos-box{
+  width: 45%;
+  height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .foto-box{
   background-color: #D9D9D9;
-  border-width: 5px;
+  border-width: 2px;
   border-color: #0F0F0F;
   border-style: solid;
+  width: 350px;
+  height: 40%;
+  margin: 5px;
+  
 }
 
 .midlepart{

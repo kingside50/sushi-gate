@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="./CSS/index.css">
-    <title>sushi</title>
+    <link rel="stylesheet" href="./CSS/login.css">
 </head>
 <body>
     <div class="container">
@@ -33,14 +34,32 @@
             </div>
         </header>
 <main>
-    <div class="midlepart">
-      <div class="middle-part-text"></div>
-      <div class="fotos-box">
-      <img class="foto-box" src="./photo's/images.jpeg" alt="sushi foto">
-      <img class="foto-box" src="./photo's/images (1).jpeg" alt="sushi foto">
-    </div>
-    </div>
-   
+    <div class="midlepart-L">
+   <div class="login-box">
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+    
+         
+      
+      </form>
+   </div>
+</div>
 </main>
 
 <footer>
